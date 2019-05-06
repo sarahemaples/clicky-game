@@ -20,7 +20,8 @@ class App extends Component {
       // if id user clicked is not included in ourr arr, 
       // update arr
       this.setState({ 
-        modelsClicked: this.state.modelsClicked.concat(id)
+        modelsClicked: this.state.modelsClicked.concat(id), 
+        title: "You wanna be on top?"
       });
       // call correctClick function
       this.correctClick();
@@ -33,6 +34,7 @@ class App extends Component {
     // update our score
     var newScore = this.state.score + 1;
     this.setState({
+      friends: this.shuffleCards(friends),
       score: newScore
     });
   }
@@ -45,6 +47,14 @@ class App extends Component {
       title: "Unfortunately, your booty is lacking the tooch"
     });
   }
+
+  shuffleCards = (friends) => {
+    for (let i = friends.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [friends[i], friends[j]] = [friends[j], friends[i]];
+    }
+    return friends;
+  } 
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
