@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Tyra",
+    "image": "https://pmcvariety.files.wordpress.com/2013/06/tyra-banks.jpg?w=1000&h=562&crop=1"
+  },
+  {
+    "id": 2,
+    "name": "Mr. Jay",
+    "image": "https://nationalpostcom.files.wordpress.com/2011/10/jay-manuel.jpg?quality=80&strip=all&w=620"
+  },
+  {
+    "id": 3,
+    "name": "Miss Jay",
+    "image": "https://pbs.twimg.com/media/CKmZ4GLUcAEhF4s.png"
+  },
+  {
+    "id": 4,
+    "name": "Nigel Barker",
+    "image": "https://marriedbiography.com/wp-content/uploads/2017/02/nigel-Barker.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Twiggy",
+    "image": "https://i.pinimg.com/originals/85/ec/8f/85ec8f721b516370371258ee20c850e0.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Janice Dickinson",
+    "image": "https://everybetsfree.typepad.com/.a/6a0120a70dafa7970b0133edef2c4f970b-pi"
+  },
+  {
+    "id": 7,
+    "name": "Andre Leon Talley",
+    "image": "https://rosetheatre.com/do-not-enter-or-modify-or-erase/client-uploads/Movies/700x400_SLIDESHOW/gospel_2.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Benny Ninja",
+    "image": "https://www.broadwaydancecenter.com/sites/default/files/styles/bdc_faculty_bio_main_focal__5_4_/public/faculty-images/ninja_benny.jpg?itok=NyvGflMp"
+  }
+]
