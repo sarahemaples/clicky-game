@@ -47,12 +47,11 @@ class App extends Component {
       score: 0,
       modelsClicked: [0],
       title: "Unfortunately, your booty is lacking the tooch",
-      friends: friends
     });
     // prompt user to play again
     setTimeout(function(){
       this.setState({
-        title: "Click a model to start again"
+        title: "Click a model to start again",
       })
     }.bind(this), 3000)
   }
