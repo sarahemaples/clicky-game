@@ -8,4 +8,6 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  width: 960px;
+  margin: auto;
 }
